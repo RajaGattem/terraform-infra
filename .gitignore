@@ -33,3 +33,6 @@ tfplan
 # Ignore variable files that might contain sensitive data
 .envrc
 .env
+
+
+C:\Users\FL_LPT-602\terraform-infra\.terraform\providers
