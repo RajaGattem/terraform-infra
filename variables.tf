@@ -16,3 +16,9 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
+variable "vpc_cidr_block" {
+  description = "The CIDR block for the VPC network"
+  type        = string
+  default     = "10.0.1.0/24"
+}
+
