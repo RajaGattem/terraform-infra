@@ -21,4 +21,9 @@ variable "vpc_cidr_block" {
   type        = string
   default     = "10.0.1.0/24"
 }
+variable "vpc_cidr_block_1" {
+  description = "The CIDR block for the VPC network"
+  type        = string
+  default     = "10.0.1.0/24"
+}
 
