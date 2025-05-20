@@ -6,7 +6,7 @@ resource "aws_vpc" "main_vpc" {
   cidr_block = "10.0.0.0/16"
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "my-instance" {
   ami           = "ami-0c55b159cbfafe1f0" # Replace with valid AMI ID
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.main_subnet.id
