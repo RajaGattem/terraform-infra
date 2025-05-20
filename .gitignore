@@ -35,4 +35,6 @@ tfplan
 .env
 
 
-C:\Users\FL_LPT-602\terraform-infra\.terraform\providers
+# C:\Users\FL_LPT-602\terraform-infra\.terraform\providers
+.terraform/providers/
+.terraform/modules/
